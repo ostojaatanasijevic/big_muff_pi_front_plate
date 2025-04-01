@@ -1222,6 +1222,121 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "fba38ffc-5e0c-4cad-a57c-46081de3fa4a")
+		(at 90 145)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H11"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9c3e0f92-3f30-424b-81c2-f7ecd47c47ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "bbec721d-6254-4aed-854c-3ca1ea301752")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a67690f1-187a-4f7d-96e9-ada8e3145fda")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5078ba45-d982-4830-8f57-c56caf144886")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/ec1718dd-6de5-48c1-995e-29362ada82e5")
+		(sheetname "/")
+		(sheetfile "big_muff_pi_front_plate.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "eb46184c-24c8-4d90-bd98-e6ae8509dae5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5d9e7773-81e0-4379-b6f6-de766218756a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7b452462-46cc-43ed-a732-2bc21ada584f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "1ce69096-5f6c-4076-b9b9-6dece2753908")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "6a6bcac2-599e-4433-9f0c-6d9e8a33105d")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "94e91328-9f8a-4440-803e-55f433023714")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "5401c4ce-6e7b-4705-ba73-e7a5c10b2e4d")
