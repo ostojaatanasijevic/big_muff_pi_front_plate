@@ -506,7 +506,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "big_muff_pi_front_plate.step",
       "svg": "",
       "vrml": ""
     },
