@@ -189,7 +189,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -466,7 +467,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "big_muff_pi.kicad_pro",
+    "filename": "big_muff_pi_front_plate.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -618,7 +619,7 @@
         "version": 0
       },
       "model_mode": 0,
-      "workbook_filename": "big_muff_pi.wbk"
+      "workbook_filename": "big_muff_pi_front_plate.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
